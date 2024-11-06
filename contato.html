@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">     
+                <h1>
+                    <img src="Images/logo.png" alt="logo-açaí" height="200px" width="300px">
+                </h1>
+            <nav class="nav1">
+                <ul>
+                <li class="inicial"><a class="inicial2" href="home.html">Home</a></li>
+                <li class="inicial"><a class="inicial2" href="produtos.html">Produtos</a></li>
+                <li class="inicial"><a class="inicial2" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form id="formulario-contato">
+            <fieldset>
+                <legend>Seus Dados</legend>
+                
+                <label for="nome">Seu Nome:</label>
+                <input class="n1" autofocus required placeholder="Name" id="nome" type="text">
+
+                <label for="email">Seu Email:</label>
+                <input class="n1" id="email" required type="email" placeholder="Email">
+                
+                <label for="nmb">Seu Telefone:</label>
+                <input class="n1" id="nmb" required type="number" placeholder="Número">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Assunto</legend>
+                
+                <label> 
+                <input type="radio" name="assunto" value="Duvidas">
+                    Dúvidas sobre Produtos
+                </label>
+
+                <label>
+                    <input type="radio" name="assunto" value="Sugestao">
+                    Sugestões e Feedback
+                </label>
+
+                <label>
+                    <input type="radio" name="assunto" value="Pedidos"> 
+                    Pedidos e Entregas
+                </label>
+
+                <label>
+                    <input type="radio" name="assunto" value="Outros">
+                    Outros
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Mensagem</legend>
+                
+                <label for="mensagem"></label>
+                <textarea name="msg" id="mensagem" cols="60" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+        
+        <div id="mensagem-usuario"> </div>
+    </main>
+
+    <footer>
+        &copy;Galaso
+        <ul class="ul1">
+        <a class="insta" href="https://www.instagram.com/gabriel_galaso1/">
+            <img src="Images/insta.png" width="20px" height="20px" alt="instagram"></a>
+      
+            <a class="twitter" href="https://x.com/gabriel_galaso">
+                <img src="Images/twitter.png" width="20px" height="20px" alt="instagram"></a>
+        </ul>
+    </footer>
+
+    <script src="contato.js"></script>
+</body>
+</html>

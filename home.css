@@ -1,0 +1,124 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: linear-gradient(to bottom, white 70%,purple );
+}
+
+header{
+background:-webkit-linear-gradient(top, purple, rgb(221, 187, 187));
+border-bottom: 8px solid black;
+}
+.caixa{
+padding: 20px;
+color: white;
+animation: aparece 2s;
+}
+.caixa{
+position: relative;
+width: 950px;
+margin: 0 auto;
+}
+.nav1{
+position: absolute;
+top: 110px;
+right: 0;
+}
+.inicial{
+display: inline;
+margin: 8px;
+}
+.inicial2{
+text-decoration: none;
+font-weight: bold;
+color: black;
+font-size: 30px;
+text-transform: uppercase;
+}
+@keyframes aparece{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.inicial2:hover{
+    color: white;
+}
+
+.texto_principal{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+.texto_descriçao{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: blueviolet;
+}
+.conteudo_principal{
+    justify-content: center;
+}
+.descrição{
+    font-weight: 500;
+    border: 2px solid black;
+    width: 600px;
+    box-shadow: 1px 2px 15px;
+}
+section{
+    margin-top: 5em;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    box-shadow: 1px 2px 15px;
+}
+.texto_mapa{
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+.divisão_300ml{
+    margin: 40px 0;
+}
+.imagem_300ml{
+    float: left;
+    border: 2px solid black;
+    box-shadow: 1px 2px 15px;
+
+}
+.text_da_imagem_de_300ml{
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    width: 15%;
+    text-shadow: 2px 2px 10px black;
+}
+.divisão_500ml{
+    margin-top: 250px;
+    float: right;
+ }
+ .imagem_500ml{
+    float: right;
+    border: 2px solid black;
+    box-shadow: 1px 2px 15px;
+ }
+ .text_da_imagem_de_500ml{
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px black;
+    width: 15%;
+}
+.texto_final{
+    clear: right;
+    text-align: center;
+    font-weight: bold;
+
+}

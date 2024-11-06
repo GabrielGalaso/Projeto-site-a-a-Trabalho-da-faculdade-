@@ -1,0 +1,116 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: linear-gradient(to bottom, white 30%,purple );
+}
+header{
+    background:-webkit-linear-gradient(top, purple, rgb(221, 187, 187));
+    border-bottom: 8px solid black;
+}
+
+.caixa{
+    padding: 20px;
+    color: white;
+    animation: aparece 2s;
+}
+
+.caixa{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.nav1{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.inicial{
+    display: inline;
+    margin: 8px;
+}
+
+.inicial2{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@keyframes aparece{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.inicial2:hover{
+    color: white;
+}
+
+.n1{
+    text-align: center;
+    margin: 20px;
+    font-size: 60px;
+}
+.divisao1, .divisao2{
+    display: flex;
+    justify-content: center;
+}
+.cor1, .cor2,.cor3,.cor4{
+    color: purple;
+}
+:hover.div1, :hover.div2, :hover.div3, :hover.div4{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0), -10px -10px 10px white;
+    transform: rotate(3deg);
+}
+.div1, .div2,.div3,.div4{
+    border: 6px solid black;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+    border-radius: 10px;
+    border-top: 6px solid rgb(63, 63, 63);
+    border-left: 6px solid rgb(63, 63, 63);
+    transition: transform 1s, box-shadow 1s;
+    transition-delay: 0s, 1s;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+} 
+table{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse:separate;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    }
+th,td{
+    border: 2px solid black;
+    border-collapse: separate;
+    }
+th{
+    font-style: italic;
+    background-image: linear-gradient(to bottom, purple 10%, pink)
+}
+td{
+    background-image: linear-gradient(to top, white 10%, rgb(226, 142, 226));
+}
+.tr1{
+    font-style: italic;
+    background-image: linear-gradient(to bottom, purple 10%, rgb(186, 175, 214))
+}

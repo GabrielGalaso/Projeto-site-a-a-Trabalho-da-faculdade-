@@ -1,0 +1,96 @@
+body{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        background-image: linear-gradient(to bottom, white 70%,purple );
+}
+
+header{
+    background:-webkit-linear-gradient(top, purple, rgb(221, 187, 187));
+    border-bottom: 8px solid black;
+}
+.caixa{
+    padding: 20px;
+    color: white;
+    animation: aparece 2s;
+}
+.caixa{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+.nav1{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.inicial{
+    display: inline;
+    margin: 8px;
+}
+.inicial2{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+@keyframes aparece{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.inicial2:hover{
+    color: white;
+}
+form{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+label{
+    margin: 20px auto;
+    display: block;
+}
+.n1,textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+legend{
+    text-shadow: 1px 1px purple;
+}
+button{
+    margin-top: 20px;
+    display: block;
+    height: 50px;
+    width: 250px;
+    border: 2px solid ;
+    border-radius: 10px;
+    background: purple;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    transition: 2s;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+} 
+#mensagem-usuario{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 20px;
+}
